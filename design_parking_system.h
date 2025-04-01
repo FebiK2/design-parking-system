@@ -25,7 +25,7 @@ class ParkingSystem {
                     return true;
                 }
             }
-            if (carType == 3){
+            else if (carType == 3){
                 if (parking[2] > 0){
                     parking[2]-=1;
                     return true;
